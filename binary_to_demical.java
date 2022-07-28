@@ -5,6 +5,7 @@ public class binary_to_demical {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int ans = 0;
+        sc.close();
         List<Integer> nums = new ArrayList<Integer>();
         while (a != 0) {
           nums.add(a % 10);
